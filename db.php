@@ -8,7 +8,7 @@ if (!$con)
 //if(!empty($first_name))
 //{
  
-$sql = "INSERT INTO thala (name,fathername,idno,dob,schooling,boardingpoint,busno,address,aadharno) VALUES (?,?,?,?,?,?,?,?,?)";
+$sql = "INSERT INTO college (name,fathername,idno,dob,schooling,boardingpoint,busno,address,aadharno) VALUES (?,?,?,?,?,?,?,?,?)";
 //}
  
 if($stmt = mysqli_prepare($con, $sql)){
